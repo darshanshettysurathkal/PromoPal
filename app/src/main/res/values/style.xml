@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="outline_box_style" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#000000</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+ <style name="spinnerstyle"  parent="android:Widget.TextView.SpinnerItem">
+     <item name="android:textColor">@color/black</item>
+ </style>
+</resources>

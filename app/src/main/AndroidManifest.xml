@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/promopal_high_resolution_logo_black_on_white_background"
+        android:label="PromoPal"
+        android:roundIcon="@drawable/promopal_high_resolution_logo_black_on_white_background"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TheShamelessSelfPromoApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".EmailPreviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmailMain"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".Resume"
+            android:exported="true"/>
+        <activity
+            android:name=".SmsPreviewActivity"
+            android:exported="false"
+            android:label="Message Preview"
+            android:parentActivityName=".Sms_Main" />
+        <activity
+            android:name=".Sms_Main"
+            android:exported="false" />
+    </application>
+
+</manifest>

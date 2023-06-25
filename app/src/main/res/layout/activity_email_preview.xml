@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vertical_background_template_web_banner_design_your_creative_ideas_with_space_text_7954_6596"
+    android:orientation="vertical"
+    android:padding="45dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#d8e2dc"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/text_view_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#55286f"
+            android:textSize="20sp"
+            tools:text="this is my sample text to test the cardview" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/send_message_button_id"
+        android:text="@string/send_message" />
+
+
+</LinearLayout>
